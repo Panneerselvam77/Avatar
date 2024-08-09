@@ -24,3 +24,12 @@
   border-color: var(--border-color);
   cursor: pointer;
 }
+.avatar-list {
+  width: 320px;
+  background-color: var(--background-colour);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}

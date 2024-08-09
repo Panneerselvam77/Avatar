@@ -37,6 +37,7 @@ export default function AvatarPicker({ avatars }) {
   return (
     <div className="container">
       <Avatar {...currentActiveAvatar} />
+      <AvatarList avatars={avatars} />
     </div>
   );
 }
